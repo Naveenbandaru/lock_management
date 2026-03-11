@@ -8,7 +8,7 @@
 - **ISSN:**  ****
 
 ### Abstract
-High concurrency transaction processing systems often experience performance degradation due to conflicts among simultaneous read and write operations. Conventional mechanisms such as Two Phase Locking and Optimistic Concurrency Control introduce blocking, repeated retries, and significant processor overhead. This work examines the impact of these mechanisms on CPU utilization and scalability in distributed environments. A lightweight runtime conflict detection approach is introduced to identify conflicts earlier during execution and reduce unnecessary computation. Experimental evaluation across multiple cluster sizes demonstrates improved processor efficiency and better scalability in transaction processing systems.
+Multi node transactional systems require efficient lock coordination to maintain consistency while supporting high concurrency. Conventional locking mechanisms rely on dynamic lock acquisition, which increases contention and coordination overhead as cluster size grows. This work introduces a deterministic lock coordination approach that enforces a predefined lock acquisition order to stabilize execution behavior. Experimental evaluation across clusters of 3 to 11 nodes shows improved throughput scalability and more predictable transaction processing performance
 
 ### Key Technical Advances in the Study
 - **Deterministic Lock Coordination Framework:**  
