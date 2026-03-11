@@ -10,30 +10,31 @@
 ### Abstract
 High concurrency transaction processing systems often experience performance degradation due to conflicts among simultaneous read and write operations. Conventional mechanisms such as Two Phase Locking and Optimistic Concurrency Control introduce blocking, repeated retries, and significant processor overhead. This work examines the impact of these mechanisms on CPU utilization and scalability in distributed environments. A lightweight runtime conflict detection approach is introduced to identify conflicts earlier during execution and reduce unnecessary computation. Experimental evaluation across multiple cluster sizes demonstrates improved processor efficiency and better scalability in transaction processing systems.
 
-### Major Research Contributions
-- **Lightweight Runtime Conflict Detection Mechanism:**  
-Introduced a runtime method that detects transactional conflicts early during execution using compact metadata instead of relying on heavy locking or late validation.
+### Key Technical Advances in the Study
+- **Deterministic Lock Coordination Framework:**  
+Introduced a coordination strategy that enforces a globally consistent lock acquisition order, eliminating cyclic dependencies and reducing contention during distributed transaction execution.
 
-- **Processor Efficient Transaction Execution:**  
-Designed a conflict management approach that reduces blocking synchronization and repeated transaction retries, leading to lower processor utilization during high concurrency workloads.
-- **Distributed Experimental Evaluation:** 
-Implemented a transaction processing model using Go based concurrent workers to simulate distributed workloads and evaluate processor utilization across cluster sizes.
+- **Predictable Transaction Execution Model:**  
+Developed a structured locking approach where transactions follow predefined execution paths, minimizing nondeterministic coordination delays and improving concurrency management.
 
-- **Scalability Analysis Across Cluster Sizes:**  
-Conducted experiments on clusters with 3, 5, 7, 9, and 11 nodes to analyze how CPU utilization changes as transaction processing systems scale.
+- **Concurrent Transaction Processing Prototype:** 
+Implemented a distributed transaction execution environment using Go based concurrency to simulate lock acquisition and evaluate throughput behavior across multiple nodes.
 
-### Practical Significance and Impact
-- **Reduced Processor Utilization:**
-The lightweight runtime approach significantly lowers CPU usage compared with conventional locking and optimistic concurrency control mechanisms.
+- **Throughput Scalability Evaluation Across Cluster Sizes:**  
+Conducted experiments on clusters with 3, 5, 7, 9, and 11 nodes to analyze how deterministic lock coordination influences transaction throughput scalability.
 
-- **Improved Transaction Processing Efficiency:**  
-Early conflict detection minimizes wasted computation caused by blocking synchronization and repeated transaction retries.
+### System Impact and Operational Advantages
+- **Higher Transaction Throughput:**
+Deterministic locking achieves significantly higher throughput compared with conventional locking by reducing lock contention and coordination overhead.
 
-- **Better Scalability for Distributed Systems:**  
-Processor consumption decreases steadily as cluster size increases, demonstrating efficient resource utilization and improved scalability.
+- **Reduced Lock Contention and Deadlocks:**  
+Predefined lock acquisition order prevents cyclic dependencies and minimizes lock wait times during concurrent transaction execution.
 
-- **Suitability for High Concurrency Platforms:**  
-The framework supports efficient transaction processing in environments such as distributed databases, cloud systems, and microservice based platforms.
+- **Improved Scalability for Multi Node Systems:**  
+Throughput continues to increase steadily as cluster size grows, demonstrating effective resource utilization and scalable transaction coordination.
+
+- **Applicability to High Volume Transaction Platforms:**  
+The framework is suitable for distributed databases, financial transaction systems, and large scale enterprise platforms requiring predictable concurrency control.
 
 ### Experimental Results (Summary)
 
