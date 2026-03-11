@@ -38,23 +38,23 @@ The framework is suitable for distributed databases, financial transaction syste
 
 ### Experimental Results (Summary)
 
-  | Nodes | Lock Based 2PL CPU %| Lightweight Runtime Detection %| Improvment (%) |
-  |-------|---------------------| -------------------------------| ---------------|
-  | 3     |  88                 | 55                             | 37.50          |
-  | 5     |  84                 | 49                             | 41.67          |
-  | 7     |  82                 | 46                             | 43.90          |
-  | 9     |  80                 | 43                             | 46.25          |
-  | 11    |  79                 | 41                             | 48.10          |
+  | Nodes | throughput conventional (trx/sec) | throughput deterministic (trx/sec) | Improvment (%) |
+  |-------|-----------------------------------| -----------------------------------| ---------------|
+  | 3     |  3900                             | 5200                               | 33.33          |
+  | 5     |  4300                             | 6100                               | 41.86          |
+  | 7     |  4600                             | 6700                               | 45.65          |
+  | 9     |  4700                             | 7100                               | 51.06          |
+  | 11    |  4800                             | 7400                               | 54.17          |
 
 ### Citation
-Lightweight Runtime Conflict Detection for CPU Efficient Transaction Processing
+Predictable Lock Coordination for Scalable Multi Node Transactional Systems.
 * Naveen Kumar Bandaru
-* International Journal of Intelligent Systems and Applications in Engineering (IJISAE) 
-* ISSN 2147-6799
+* *******************************International Journal of Intelligent Systems and Applications in Engineering (IJISAE) 
+* ISSN ************************2147-6799
 * License \
 This research is shared for a academic and research purposes. For commercial use, please contact the author.\
 **Resources** \
-https://www.ijisae.org/index.php/IJISAE \
+***********************https://www.ijisae.org/index.php/IJISAE \
 **Author Contact** \
 **LinkedIn**: linkedin.com/in/naveen-bandaru | **Email**: naveen.bandaru@gmail.com
 
