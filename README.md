@@ -1,14 +1,11 @@
 # lock_management
-Predictable Lock Coordination for Scalable Multi Node Transactional Systems
-
-# cpu_usage
-**Lightweight Runtime Conflict Detection for CPU Efficient Transaction Processing**
+**Predictable Lock Coordination for Scalable Multi Node Transactional Systems**
 
 ### Paper Information
 - **Author(s):** Naveen Kumar Bandaru
 - **Published In:** International Journal of Intelligent Systems and Applications in Engineering (IJISAE)
-- **Publication Date:** June, 2023
-- **ISSN:**  2147-6799
+- **Publication Date:** Jan, 2026
+- **ISSN:**  ****
 
 ### Abstract
 High concurrency transaction processing systems often experience performance degradation due to conflicts among simultaneous read and write operations. Conventional mechanisms such as Two Phase Locking and Optimistic Concurrency Control introduce blocking, repeated retries, and significant processor overhead. This work examines the impact of these mechanisms on CPU utilization and scalability in distributed environments. A lightweight runtime conflict detection approach is introduced to identify conflicts earlier during execution and reduce unnecessary computation. Experimental evaluation across multiple cluster sizes demonstrates improved processor efficiency and better scalability in transaction processing systems.
