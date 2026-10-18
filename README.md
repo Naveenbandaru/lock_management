@@ -52,7 +52,7 @@ Predictable Lock Coordination for Scalable Multi Node Transactional Systems.
 * 6th International Conference onvancing Knowledge from Multidisciplinary Perspectives in Education, Engineering & Technology , ICAKMPET , Cebu,   Philippines
 * ISBN 978-81-981425-6-6 
 * License \
-This research is shared for a academic and research purposes. For commercial use, please contact the author.\
+This research is shared for a academic and research purposes. For commercial use, please contact the author.
 
 **Author Contact** \
 **LinkedIn**: linkedin.com/in/naveen-bandaru | **Email**: naveen.bandaru@gmail.com
