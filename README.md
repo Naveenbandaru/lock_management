@@ -5,7 +5,7 @@
 - **Author(s):** Naveen Kumar Bandaru
 - **Published In:** 6th International Conference onvancing Knowledge from Multidisciplinary Perspectives in Education, Engineering & Technology , ICAKMPET , Cebu,   Philippines
 - **Publication Date:** Jan, 2026
-- **ISSN:**  ****
+- **ISSN:**  978-81-981425-6-6 
 
 ### Abstract
 Multi node transactional systems require efficient lock coordination to maintain consistency while supporting high concurrency. Conventional locking mechanisms rely on dynamic lock acquisition, which increases contention and coordination overhead as cluster size grows. This work introduces a deterministic lock coordination approach that enforces a predefined lock acquisition order to stabilize execution behavior. Experimental evaluation across clusters of 3 to 11 nodes shows improved throughput scalability and more predictable transaction processing performance
