@@ -49,8 +49,8 @@ The framework is suitable for distributed databases, financial transaction syste
 ### Citation
 Predictable Lock Coordination for Scalable Multi Node Transactional Systems.
 * Naveen Kumar Bandaru
-* *******************************International Journal of Intelligent Systems and Applications in Engineering (IJISAE) 
-* ISSN ************************2147-6799
+* 6th International Conference onvancing Knowledge from Multidisciplinary Perspectives in Education, Engineering & Technology , ICAKMPET , Cebu,   Philippineseering
+* ISBN 978-81-981425-6-6 
 * License \
 This research is shared for a academic and research purposes. For commercial use, please contact the author.\
 **Resources** \
