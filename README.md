@@ -3,7 +3,7 @@
 
 ### Paper Information
 - **Author(s):** Naveen Kumar Bandaru
-- **Published In:** 6th International Conference onvancing Knowledge from Multidisciplinary Perspectives in Education, Engineering & Technology , ICAKMPET , Cebu, Philippines
+- **Published In:** 6th International Conference onvancing Knowledge from Multidisciplinary Perspectives in Education, Engineering & Technology , ICAKMPET , Cebu,   Philippines
 - **Publication Date:** Jan, 2026
 - **ISSN:**  ****
 
