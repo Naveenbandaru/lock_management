@@ -54,7 +54,7 @@ Predictable Lock Coordination for Scalable Multi Node Transactional Systems.
 * License \
 This research is shared for a academic and research purposes. For commercial use, please contact the author.\
 **Resources** \
-***********************https://www.ijisae.org/index.php/IJISAE \
+
 **Author Contact** \
 **LinkedIn**: linkedin.com/in/naveen-bandaru | **Email**: naveen.bandaru@gmail.com
 
